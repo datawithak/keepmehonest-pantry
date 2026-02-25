@@ -1,0 +1,15 @@
+export const Colors = {
+  cream: '#FAF7F2',
+  warmWhite: '#FFF8F0',
+  terracotta: '#4D4447',
+  terracottaLight: '#6B5D62',
+  charcoal: '#1A1A1A',
+  sage: '#6B8F71',
+  muted: '#8E8E93',
+  lightGray: '#F2F2F7',
+  border: '#E5E5EA',
+  struck: '#BCBCBC',
+  danger: '#E74C3C',
+  white: '#FFFFFF',
+  overlay: 'rgba(250, 247, 242, 0.85)',
+};
