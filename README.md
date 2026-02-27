@@ -82,11 +82,14 @@ zubys-pantry/
 
 ## Running locally
 
-1. Clone the repo
-2. Create a Firebase project and enable Firestore
-3. Add your Firebase config to `src/config/firebase.ts`
-4. Install and run:
-   ```bash
-   npm install
-   npx expo start
-   ```
+The repo includes a working Firebase config connected to a live Firestore backend, so you can run it as-is:
+
+```bash
+npm install
+npx expo start
+```
+
+To run your own isolated instance (recommended if you want your own pantry):
+1. Create a free Firebase project at [firebase.google.com](https://firebase.google.com)
+2. Enable Firestore and replace the config in `src/config/firebase.ts`
+3. Set Firestore rules to allow read/write for your use case
